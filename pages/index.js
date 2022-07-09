@@ -1,10 +1,12 @@
-import { Flex, Heading } from "@chakra-ui/react"
+import { Flex, Heading, Box } from "@chakra-ui/react"
 
 export default function Home() {
   return (
       <>
         <Flex display={"flex"} justifyContent={"center"} alignItems={"center"}>
-          <Heading>Lennard</Heading>
+            <Box height={"20vh"}>
+                <Heading>Lennard</Heading>
+            </Box>
         </Flex>
       </>
   )
