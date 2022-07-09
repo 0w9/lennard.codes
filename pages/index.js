@@ -1,13 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import { Flex, Heading } from "@chakra-ui/react"
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <a>Lennard Dorst</a>
-      <p>personal site.</p>
-    </div>
+      <>
+        <Flex display={"flex"} justifyContent={"flex"} alignItems={"center"}>
+          <Heading>Lennard</Heading>
+        </Flex>
+      </>
   )
 }
 
