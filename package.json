@@ -2,6 +2,11 @@
   "name": "next-app",
   "version": "0.0.53",
   "main": "index.js",
+
+  "scripts": {
+    "build": "npx next build",
+  },
+
   "dependencies": {
     "@chakra-ui/react": "^2.2.1",
     "@emotion/react": "^11.9.3",
