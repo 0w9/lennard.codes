@@ -1,18 +1,11 @@
 import { Flex, Heading, Box, HStack, Link, Center } from "@chakra-ui/react"
 import styles from "../styles/Home.module.css"
+import Script from 'next/script';
 
 export default function Home() {
   return (
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0SQ7C0EDQQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-0SQ7C0EDQQ');
-</script>
-  
+    
   
       <div className={styles.bg}>
           <Flex display="flex" justifyContent={"center"} alignItems={"center"} height={"100vh"}>
